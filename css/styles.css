@@ -12,7 +12,7 @@ body {
 
 header {
     padding: 35px 15px 25px 15px;
-    background-color: whitesmoke;
+    background-color: lightblue;
 }
 
 main {
@@ -24,7 +24,7 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 25px;
-    background-color: whitesmoke;
+    background-color: lightblue;
 }
 
 h1 {
@@ -85,6 +85,10 @@ a:link {
     padding-top: 20px;
     width: 65%;
     margin: auto;
+}
+#profile_img:hover {
+    border-radius: 50%;
+    transition: 300ms;
 }
 
 .footer_link {
