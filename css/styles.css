@@ -1,0 +1,187 @@
+/* Default CSS */
+html {
+    font-size: 20px;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    padding: 35px 15px 25px 15px;
+    background-color: whitesmoke;
+}
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    background-color: whitesmoke;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.skill_list li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px 10px 20px;
+    background-color: lightyellow;
+    border-radius: 5px;
+    border: 3px solid lightgrey;
+    font-weight: bold !important;
+}
+
+/* Mobile Design */
+.nav_link {
+    display: block;
+    background-color: white;
+    width: 100%;
+    border-radius: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer_nav {
+    display: flex;
+    flex: 1;
+}
+
+#footer_student_name {
+    margin-right: auto;
+}
+
+#profile_img {
+    padding-top: 20px;
+    width: 65%;
+    margin: auto;
+}
+
+.footer_link {
+    display: none;
+}
+
+/* Tablet CSS */
+@media screen AND (min-width: 769px) {
+    .nav_link {
+        background-color: whitesmoke;
+        display: inline;
+        width: inherit;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .flex-column {
+        flex-direction: column;
+    }
+    .container {
+        display: flex;
+    }
+    .center {
+        justify-content: center;
+    }
+    .align-center {
+        align-items: center;
+    }
+    .wrap {
+        flex-wrap: wrap;
+    }
+    .break {
+        flex-basis: 100%;
+    }
+    .nav_link {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer_link {
+        display: inline;
+        font-size: .8rem;
+        padding: 5px;
+        margin: 0;
+    }
+    .hide {
+        display: none;
+    }
+    article {
+        padding: 10px 10px 10px 10px;
+        padding-top: 20px;
+    }
+    #profile_text {
+        text-align: left;
+        flex-grow: 2.5;
+        margin-right: 10px;
+        order: 0;
+    }
+    #profile_img {
+        order: 1;
+        flex-grow: 1;
+    }
+    .half {
+        flex-basis: 150px;
+    }
+    .portfolio_item {
+        max-width: 47%;
+    }
+    li.portfolio_item {
+        padding-right: 20px;
+    }
+    #contact {
+        width: 100%;
+    }
+    #contact p {
+        max-width: 80%;
+    }
+}
+
+
+/* Desktop CSS */
+@media screen AND (min-width: 1024px) {
+    .header_nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title {
+        margin-right: auto;
+        padding: 0;
+        margin: 0 auto 0 10px;
+    }
+    .portfolio_item {
+        max-width: 31%;
+    }
+    li.portfolio_item {
+        padding-right: 20px;
+    }
+
+}
