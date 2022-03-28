@@ -96,7 +96,7 @@ a:link {
 }
 
 /* Tablet CSS */
-@media screen AND (min-width: 769px) {
+@media screen AND (min-width: 768px) {
     .nav_link {
         background-color: whitesmoke;
         display: inline;
